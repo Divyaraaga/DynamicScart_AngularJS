@@ -1,0 +1,312 @@
+[
+	{
+		"orderNumber": "1",
+		"displayName": "State",
+		"geometadata": "geometadata_1",
+		"name": "state",
+		"source": "state",
+		"id": "geometadata_1"
+	}, {
+		"orderNumber": "2",
+		"displayName": "Zip Code",
+		"geometadata": "geometadata_2",
+		"name": "zipcode",
+		"source": "zipcode",
+		"id": "geometadata_2"
+	}, {
+		"orderNumber": "3",
+		"displayName": "City",
+		"geometadata": "geometadata_3",
+		"name": "city",
+		"source": "city",
+		"id": "geometadata_3"
+	}, {
+		"orderNumber": "4",
+		"displayName": "FIPS County Code",
+		"geometadata": "geometadata_4",
+		"name": "fipscountycode",
+		"source": "fipscountycode",
+		"id": "geometadata_4"
+	}, {
+		"orderNumber": "5",
+		"displayName": "DMA",
+		"geometadata": "geometadata_5",
+		"name": "dma",
+		"source": "dma",
+		"id": "geometadata_5"
+	}, {
+		"next": ["segmentmetadata_3"],
+		"showValues": "TRUE",
+		"orderNumber": 2,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Accepted Auto Bill Enrollment",
+		"segmentmetadata": "segmentmetadata_2",
+		"name": "acceptedautobillpayenrollment",
+		"source": "acceptedautobillpayenrollment",
+		"id": "segmentmetadata_2",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_4"],
+		"showValues": "TRUE",
+		"orderNumber": 3,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Accepted Paperless Bill Enrollment",
+		"segmentmetadata": "segmentmetadata_3",
+		"name": "acceptedpaperlessbillenrollment",
+		"source": "acceptedpaperlessbillenrollment",
+		"id": "segmentmetadata_3",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_5"],
+		"showValues": "TRUE",
+		"orderNumber": 4,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Account Status",
+		"segmentmetadata": "segmentmetadata_4",
+		"name": "accountstatus",
+		"source": "accountstatus",
+		"id": "segmentmetadata_4",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_6"],
+		"showValues": "FALSE",
+		"orderNumber": 5,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Account Type",
+		"segmentmetadata": "segmentmetadata_5",
+		"name": "accounttype",
+		"source": "accounttype",
+		"id": "segmentmetadata_5",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_7"],
+		"showValues": "FALSE",
+		"orderNumber": 6,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Agent Role",
+		"segmentmetadata": "segmentmetadata_6",
+		"name": "agentrole",
+		"source": "agentrole",
+		"id": "segmentmetadata_6",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_8"],
+		"showValues": "FALSE",
+		"orderNumber": 7,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Churn Segment",
+		"segmentmetadata": "segmentmetadata_7",
+		"name": "churnsegment",
+		"source": "churnsegment",
+		"id": "segmentmetadata_7",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_9"],
+		"showValues": "TRUE",
+		"orderNumber": 8,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Collect Payment Flag",
+		"segmentmetadata": "segmentmetadata_8",
+		"name": "collectpaymentflag",
+		"source": "collectpaymentflag",
+		"id": "segmentmetadata_8",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_10"],
+		"showValues": "FALSE",
+		"orderNumber": 9,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Corporate Id",
+		"segmentmetadata": "segmentmetadata_9",
+		"name": "corpid",
+		"source": "corpid",
+		"id": "segmentmetadata_9",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_11"],
+		"showValues": "FALSE",
+		"orderNumber": 10,
+		"operators": ["\u003d", "!\u003d", "BETWEEN"],
+		"displayName": "Credit Band",
+		"segmentmetadata": "segmentmetadata_10",
+		"name": "creditband",
+		"source": "creditband",
+		"id": "segmentmetadata_10",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_12"],
+		"showValues": "TRUE",
+		"orderNumber": 11,
+		"operators": ["\u003d", "!\u003d", "\u003c", "\u003e", "BETWEEN"],
+		"displayName": "Customer Heart Value",
+		"segmentmetadata": "segmentmetadata_11",
+		"name": "customervalue",
+		"source": "customervalue",
+		"id": "segmentmetadata_11",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_13"],
+		"showValues": "TRUE",
+		"orderNumber": 12,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Customer Status",
+		"segmentmetadata": "segmentmetadata_12",
+		"name": "customerstatus",
+		"source": "customerstatus",
+		"id": "segmentmetadata_12",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_14"],
+		"showValues": "FALSE",
+		"orderNumber": 13,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Dealer Account Type",
+		"segmentmetadata": "segmentmetadata_13",
+		"name": "dealeraccounttype",
+		"source": "dealeraccounttype",
+		"id": "segmentmetadata_13",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_15"],
+		"showValues": "FALSE",
+		"orderNumber": 14,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Dealer ID",
+		"segmentmetadata": "segmentmetadata_14",
+		"name": "dealerid",
+		"source": "dealerid",
+		"id": "segmentmetadata_14",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_16"],
+		"showValues": "FALSE",
+		"orderNumber": 15,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Duo Segment",
+		"segmentmetadata": "segmentmetadata_15",
+		"name": "duosegment",
+		"source": "duosegment",
+		"id": "segmentmetadata_15",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_17"],
+		"showValues": "TRUE",
+		"orderNumber": 16,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Employee Segment",
+		"segmentmetadata": "segmentmetadata_16",
+		"name": "employeesegment",
+		"source": "employeesegment",
+		"id": "segmentmetadata_16",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_18"],
+		"showValues": "TRUE",
+		"orderNumber": 17,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Locals Available",
+		"segmentmetadata": "segmentmetadata_17",
+		"name": "localsavailable",
+		"source": "localsavailable",
+		"id": "segmentmetadata_17",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_19"],
+		"showValues": "FALSE",
+		"orderNumber": 18,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Marketing Source Code",
+		"segmentmetadata": "segmentmetadata_18",
+		"name": "marketingsourcecode",
+		"source": "marketingsourcecode",
+		"id": "segmentmetadata_18",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_20"],
+		"showValues": "FALSE",
+		"orderNumber": 19,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Mfh Wiring Code",
+		"segmentmetadata": "segmentmetadata_19",
+		"name": "mfhwiringcode",
+		"source": "mfhwiringcode",
+		"id": "segmentmetadata_19",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_21"],
+		"showValues": "FALSE",
+		"orderNumber": 20,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Originator System",
+		"segmentmetadata": "segmentmetadata_20",
+		"name": "originatorsystem",
+		"source": "originatorsystem",
+		"id": "segmentmetadata_20",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_22"],
+		"showValues": "TRUE",
+		"orderNumber": 21,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Partner Name",
+		"segmentmetadata": "segmentmetadata_21",
+		"name": "partnername",
+		"source": "partnername",
+		"id": "segmentmetadata_21",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_23"],
+		"showValues": "FALSE",
+		"orderNumber": 22,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Product Indicator",
+		"segmentmetadata": "segmentmetadata_22",
+		"name": "productindicator",
+		"source": "productindicator",
+		"id": "segmentmetadata_22",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_24"],
+		"showValues": "TRUE",
+		"orderNumber": 23,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Promotion Code",
+		"segmentmetadata": "segmentmetadata_23",
+		"name": "promotioncode",
+		"source": "promotioncode",
+		"id": "segmentmetadata_23",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_25"],
+		"showValues": "TRUE",
+		"orderNumber": 24,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Proprietary Segment",
+		"segmentmetadata": "segmentmetadata_24",
+		"name": "proprietarysegment",
+		"source": "proprietarysegment",
+		"id": "segmentmetadata_24",
+		"type": "segmentmetadata"
+	}, {
+		"next": ["segmentmetadata_26"],
+		"showValues": "TRUE",
+		"orderNumber": 25,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Sales Channel",
+		"segmentmetadata": "segmentmetadata_25",
+		"name": "saleschannel",
+		"source": "saleschannel",
+		"id": "segmentmetadata_25",
+		"type": "segmentmetadata"
+	}, {
+		"showValues": "TRUE",
+		"orderNumber": 26,
+		"operators": ["\u003d", "!\u003d"],
+		"displayName": "Treatment Code",
+		"segmentmetadata": "segmentmetadata_26",
+		"name": "treatmentcode",
+		"source": "treatmentcode",
+		"id": "segmentmetadata_26",
+		"type": "segmentmetadata"
+	}
+]

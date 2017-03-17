@@ -1,0 +1,979 @@
+{
+	"mpmEligiblePromotions": {
+		"a13344332276941687639": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "12/12/35 11:59",
+					"description": "testLeasedRecieverD",
+					"active": "true",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "oneTime",
+					"promotionId": "testleaD",
+					"OFFERCartTitle": "testLeasedRecieverD",
+					"discountedPrice": "0.0",
+					"have": ["CatLeased"],
+					"price": "10.0",
+					"name": "testLeasedRecieverD",
+					"ID": "a13344332276941687639",
+					"startDate": "02/12/16 12:01",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"a6364967298456465324": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"sequenceNumber": "103",
+					"quantity": "1",
+					"promotionLevel": "discount",
+					"endDate": "1483185540000",
+					"description": "MPM-203 Test Promotion C",
+					"active": "true",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "oneTime",
+					"promotionId": "MPM203TPC",
+					"OFFERCartTitle": "MPM-203 Test Promotion C",
+					"discountedPrice": "44.44",
+					"price": "55.55",
+					"name": "MPM-203 Test Promotion C",
+					"have": ["CatPCDiscount"],
+					"ID": "a6364967298456465324",
+					"displayInOfferPanel": "true",
+					"startDate": "1451606460000"
+				}
+			}
+		],
+		"a7593537568121989267": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"sequenceNumber": "234",
+					"quantity": "1",
+					"promotionLevel": "bundle",
+					"endDate": "1462665540000",
+					"description": "CINEMAX",
+					"active": "true",
+					"type": "promotion",
+					"displayInCart": "true",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "Original CMAX 13.99",
+					"OFFERCartTitle": "CINEMAX",
+					"discountedPrice": "0.0",
+					"pick": "0",
+					"price": "13.99",
+					"have": ["CatPremium"],
+					"name": "Original CMAX 13.99",
+					"ID": "a7593537568121989267",
+					"displayInOfferPanel": "true",
+					"startDate": "1459036860000"
+				}
+			}
+		],
+		"2016NFLVR103580": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["VR103580"],
+					"sequenceNumber": "117",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "2016 NFL SUNDAY TICKET MAX Upgrade Regular Season in 6 Payments",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "2016NFLVR103580",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "2016 NFL SUNDAY TICKET MAX Upgrade Regular Season in 6 Payments",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "17",
+					"have": ["CatNFLSundayMax"],
+					"name": "2016 NFL SUNDAY TICKET MAX Upgrade Regular Season in 6 Payments",
+					"promoId": "2016NFLVR103580",
+					"ID": "2016NFLVR103580",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"FOXSOCPLSR100882": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["R100882"],
+					"sequenceNumber": "120",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Fox Soccer Plus",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"type": "promotion",
+					"displayInCart": "true",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "FOXSOCPLSR100882",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "Fox Soccer Plus",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "14.99",
+					"have": ["CatFoxSoccer"],
+					"name": "Fox Soccer Plus",
+					"promoId": "FOXSOCPLSR100882",
+					"ID": "FOXSOCPLSR100882",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"P6688": [
+			{
+				"label": "product",
+				"eligibleOfferMap": {
+					"OFFERCartTitle": "OFFER? HD EXTRA PACK",
+					"quantity": "1",
+					"productId": "P6688",
+					"imageUrl": "http://agentanswercenter.OFFER.com/en-us/system/scripts/app_redirector.jsp?uid=601",
+					"have": ["CatAddOns"],
+					"name": "OFFER HD EXTRA PACK",
+					"description": "OFFER HD EXTRA PACK",
+					"active": "true",
+					"ID": "P6688",
+					"type": "product",
+					"productType": "Programming"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-1": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-1",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "199",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-1",
+					"sequenceNumber": "203",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "1",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"promotionGroup": "Genie Client",
+					"name": "Wireless Genie Mini",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-2": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-2",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "398",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-2",
+					"include": ["SECOND_INSTANT_REBATE_GENIE_Client"],
+					"sequenceNumber": "204",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "2",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"promotionGroup": "Genie Client",
+					"name": "Wireless Genie Mini",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"a8109672447327212495": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["a7042091080531276574", "a6364967298456465324"],
+					"sequenceNumber": "101",
+					"quantity": "1",
+					"promotionLevel": "discount",
+					"endDate": "1483228740000",
+					"description": "MPM-203 Test Promotion A",
+					"active": "true",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "oneTime",
+					"promotionId": "MPM203TPA",
+					"OFFERCartTitle": "MPM-203 Test Promotion A",
+					"discountedPrice": "111.1",
+					"price": "133.32",
+					"have": ["CatPCDiscount"],
+					"name": "MPM-203 Test Promotion A",
+					"ID": "a8109672447327212495",
+					"startDate": "1451606460000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-3": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-3",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "597",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-3",
+					"include": ["SECOND_INSTANT_REBATE_GENIE_Client", "THIRD_INSTANT_REBATE_GENIE_Client"],
+					"sequenceNumber": "205",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "3",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "Wireless Genie Mini",
+					"promotionGroup": "Genie Client",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-4": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-4",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "796",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-4",
+					"sequenceNumber": "206",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "4",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "Wireless Genie Mini",
+					"promotionGroup": "Genie Client",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-5": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-5",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "997",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-5",
+					"sequenceNumber": "207",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "5",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "Wireless Genie Mini",
+					"promotionGroup": "Genie Client",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"WirelessGenieMiniH00000000745-6": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "Wireless Genie Mini",
+					"type": "promotion",
+					"promotionId": "WirelessGenieMiniH00000000745-6",
+					"OFFERCartTitle": "Wireless Genie Mini",
+					"has_message": ["GenieRequiredErrorMsg"],
+					"price": "1194",
+					"IA": "H00000000745",
+					"have": ["CatClient"],
+					"ID": "WirelessGenieMiniH00000000745-6",
+					"sequenceNumber": "208",
+					"IA_groupOffersByProductId": "H00000000745",
+					"quantity": "6",
+					"active": "true",
+					"require": ["GenieH00000038927"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Mini",
+					"groupOffersByProductId": "H00000000745",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "Wireless Genie Mini",
+					"promotionGroup": "Genie Client",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"20152016NBAVR103537": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["VR103537"],
+					"sequenceNumber": "118",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "2015-2016 NBA LEAGUE PASS Holiday Offer in 5 Payments",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "20152016NBAVR103537",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "2015-2016 NBA LEAGUE PASS Holiday Offer in 5 Payments",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "33.99",
+					"have": ["CatNBALeague"],
+					"name": "2015-2016 NBA LEAGUE PASS Holiday Offer in 5 Payments",
+					"promoId": "20152016NBAVR103537",
+					"ID": "20152016NBAVR103537",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"a7042091080531276574": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"sequenceNumber": "102",
+					"promotionLevel": "discount",
+					"endDate": "1483228740000",
+					"description": "MPM-203 Test Promotion B",
+					"active": "true",
+					"type": "promotion",
+					"displayInCart": "true",
+					"promotionId": "MPM203TPB",
+					"OFFERCartTitle": "MPM-203 Test Promotion B",
+					"discountedPrice": "66.66",
+					"price": "77.77",
+					"have": ["CatPCDiscount"],
+					"name": "MPM-203 Test Promotion B",
+					"ID": "a7042091080531276574",
+					"displayInOfferPanel": "true",
+					"startDate": "1451606460000"
+				}
+			}
+		],
+		"a15342062086165900849": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"sequenceNumber": "891",
+					"quantity": "1",
+					"promotionLevel": "bundle",
+					"endDate": "1462579140000",
+					"description": "SHOWTIME",
+					"active": "true",
+					"type": "promotion",
+					"displayInCart": "true",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "Original ST 13.99",
+					"OFFERCartTitle": "SHOWTIME",
+					"discountedPrice": "0.0",
+					"pick": "0",
+					"price": "13.99",
+					"have": ["CatPremium"],
+					"name": "Original ST 13.99",
+					"ID": "a15342062086165900849",
+					"displayInOfferPanel": "true",
+					"startDate": "1459036860000"
+				}
+			}
+		],
+		"2016NFLVR103576": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["VR103576-041"],
+					"sequenceNumber": "116",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "2016 NFL SUNDAY TICKET Regular Season in 1 Payment",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"type": "promotion",
+					"displayInCart": "true",
+					"frequencyOfCharge": "monthly",
+					"enabled": ["2016NFLVR103580"],
+					"promotionId": "2016NFLVR103576",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "2016 NFL SUNDAY TICKET Regular Season in 1 Payment",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "257.94",
+					"name": "2016 NFL SUNDAY TICKET Regular Season in 1 Payment",
+					"have": ["CatNFLSunday"],
+					"promoId": "2016NFLVR103576",
+					"ID": "2016NFLVR103576",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		],
+		"HDH00000000345-5": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-5",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "495",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-5",
+					"include": ["SatelliteDishH00000000343"],
+					"sequenceNumber": "213",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "5",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDH00000000345-6": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-6",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "594",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-6",
+					"include": ["SatelliteDishH00000000343"],
+					"sequenceNumber": "214",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "6",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDH00000000345-3": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-3",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "297",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-3",
+					"include": ["SatelliteDishH00000000343", "FIRST_INSTANT_REBATE_HD", "SECOND_INSTANT_REBATE_HD", "THIRD_INSTANT_REBATE_HD"],
+					"sequenceNumber": "211",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "3",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDH00000000345-4": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-4",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "396",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-4",
+					"include": ["SatelliteDishH00000000343"],
+					"sequenceNumber": "212",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "4",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDH00000000345-1": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-1",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "99",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-1",
+					"include": ["SatelliteDishH00000000343", "FIRST_INSTANT_REBATE_HD"],
+					"sequenceNumber": "209",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "1",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDH00000000345-2": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD Receiver",
+					"type": "promotion",
+					"promotionId": "HDH00000000345-2",
+					"OFFERCartTitle": "OFFER HD Receiver",
+					"price": "198",
+					"IA": "HDH00000000345",
+					"have": ["CatLeased"],
+					"ID": "HDH00000000345-2",
+					"include": ["SatelliteDishH00000000343", "FIRST_INSTANT_REBATE_HD", "SECOND_INSTANT_REBATE_HD"],
+					"sequenceNumber": "210",
+					"IA_groupOffersByProductId": "HDH00000000345",
+					"quantity": "2",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "HD",
+					"groupOffersByProductId": "HDH00000000345",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER HD Receiver",
+					"promotionGroup": "HD",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"a13799909780080574924": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"sequenceNumber": "900",
+					"quantity": "1",
+					"promotionLevel": "bundle",
+					"endDate": "1462492740000",
+					"description": "HBO",
+					"active": "true",
+					"type": "promotion",
+					"displayInCart": "true",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "Original HBO 17.99",
+					"OFFERCartTitle": "HBO",
+					"discountedPrice": "0.0",
+					"pick": "0",
+					"price": "42.01",
+					"have": ["CatPremium"],
+					"name": "HBO",
+					"ID": "a13799909780080574924",
+					"displayInOfferPanel": "true",
+					"startDate": "1459036860000"
+				}
+			}
+		],
+		"GenieH00000038927": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER? Genie",
+					"type": "promotion",
+					"promotionId": "GenieH00000038927",
+					"OFFERCartTitle": "OFFER? Genie",
+					"price": "299",
+					"IA": "H00000038927",
+					"have": ["CatLeased"],
+					"ID": "GenieH00000038927",
+					"include": ["SatelliteDishH00000000343", "FIRST_INSTANT_REBATE_GENIE"],
+					"sequenceNumber": "201",
+					"IA_groupOffersByProductId": "H00000038927",
+					"quantity": "1",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"frequencyOfCharge": "oneTime",
+					"LA_ReceiverType": "Genie",
+					"groupOffersByProductId": "H00000038927",
+					"preSelectedInOfferPanel": "false",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"name": "OFFER Genie",
+					"promotionGroup": "Genie",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true"
+				}
+			}
+		],
+		"HDEXTRAPACKP6688": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["P6688"],
+					"sequenceNumber": "136",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "OFFER HD EXTRA PACK",
+					"active": "true",
+					"require": ["HDH00000000345-1", "HDH00000000345-2", "HDH00000000345-3", "HDH00000000345-4", "HDH00000000345-5", "HDH00000000345-6"],
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "HDEXTRAPACKP6688",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "OFFER? HD EXTRA PACK",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "0",
+					"name": "OFFER HD EXTRA PACK",
+					"have": ["CatAddOns"],
+					"promoId": "HDEXTRAPACKP6688",
+					"ID": "HDEXTRAPACKP6688",
+					"startDate": "1456617600000",
+					"displayInOfferPanel": "true",
+					"isPicked": true
+				}
+			}
+		],
+		"20152016NHLVR103472": [
+			{
+				"label": "promotion",
+				"eligibleOfferMap": {
+					"include": ["VR103472"],
+					"sequenceNumber": "119",
+					"quantity": "1",
+					"promotionLevel": "base",
+					"endDate": "2082672000000",
+					"description": "2015-2016 NHL CENTER ICE Regular Season in 4 Payments",
+					"active": "true",
+					"disableInOfferPanel": "false",
+					"displayInCart": "true",
+					"type": "promotion",
+					"frequencyOfCharge": "monthly",
+					"promotionId": "20152016NHLVR103472",
+					"preSelectedInOfferPanel": "false",
+					"OFFERCartTitle": "2015-2016 NHL CENTER ICE Regular Season in 4 Payments",
+					"discountedPrice": "0",
+					"preselectedInOfferPanel": "false",
+					"price": "35.99",
+					"have": ["CatNHLCenter"],
+					"name": "2015-2016 NHL CENTER ICE Regular Season in 4 Payments",
+					"promoId": "20152016NHLVR103472",
+					"ID": "20152016NHLVR103472",
+					"displayInOfferPanel": "true",
+					"startDate": "1456617600000"
+				}
+			}
+		]
+	},
+	"scartId": "6891fdc2-5473-4ab9-8923-316eace212c6",
+	"mpmErrorMessages": [
+		{
+			"message": "A Base Package must be chosen. Please Select a Base Package to proceed.",
+			"type": "error",
+			"code": "180000-%PRGMisc-E-",
+			"priority": "1"
+		}, {
+			"message": "Note additional receiver fees will be applied if you select more than 4 receivers",
+			"type": "warning",
+			"code": "181-%HWMisc-E-",
+			"priority": "1"
+		}, {
+			"message": "An HD or HD DVR receiver must be selected to view the OFFER HD EXTRA PACK programming.",
+			"type": "error",
+			"code": "190005-%PRGPRGHW-E",
+			"priority": "1"
+		}
+	],
+	"mpmRelations": [],
+	"mpmLayout": [
+		{
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "multiSelect",
+				"name": "OFFER Add Ons",
+				"description": "OFFER Add Ons",
+				"active": "true",
+				"has_category": ["PNLAddOns"],
+				"ID": "CatAddOns",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"sequenceNumber": "8",
+				"controlType": "singleSelect",
+				"name": "NBA LEAGUE PASS",
+				"description": "Basketball",
+				"active": "true",
+				"has_category": ["PNLBaseball"],
+				"ID": "CatNBALeague",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "singleSelect",
+				"name": "Leased Receivers",
+				"description": "Leased Receivers",
+				"active": "true",
+				"has_category": ["PNLLeasedReceivers"],
+				"ID": "CatLeased",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "singleSelect",
+				"name": "Fox Soccer Plus",
+				"description": "Fox Soccer Plus",
+				"active": "true",
+				"has_category": ["PNLSoccer"],
+				"ID": "CatFoxSoccer",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "singleSelect",
+				"name": "NHL? CENTER ICE?",
+				"description": "NHL? CENTER ICE?",
+				"active": "true",
+				"has_category": ["PNLHockey"],
+				"ID": "CatNHLCenter",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "multiSelect",
+				"name": "OFFERï¿½ Client - Leased",
+				"description": "OFFERï¿½ Client - Leased",
+				"active": "true",
+				"ID": "CatClient",
+				"has_category": ["PNLClient"],
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "multiSelect",
+				"name": "Premium Channels",
+				"description": "Premium Channels",
+				"active": "true",
+				"has_category": ["PNLPremChannels"],
+				"ID": "CatPremium",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "multiSelect",
+				"name": "Premium Channels Discount",
+				"description": "Premium Channels Discount",
+				"active": "true",
+				"has_category": ["PNLPremChannelsDisc"],
+				"ID": "CatPCDiscount",
+				"type": "productcategory",
+				"productType": " SHOWTIME and CINEMAX Free for 3 Months"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "singleSelect",
+				"name": "NFL SUNDAY TICKET? MAX Upgrade",
+				"description": "NFL SUNDAY TICKET? MAX Upgrade",
+				"active": "true",
+				"has_category": ["PNLBasketball"],
+				"ID": "CatNFLSundayMax",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"controlType": "singleSelect",
+				"name": "CorrectionOffers",
+				"description": "Correction Offers",
+				"active": "true",
+				"has_category": ["a12858316989495351180"],
+				"ID": "a2501833074196325611",
+				"type": "productcategory"
+			}
+		}, {
+			"label": "productcategory",
+			"eligibleOfferMap": {
+				"sequenceNumber": "7",
+				"controlType": "singleSelect",
+				"name": "NFL SUNDAY TICKET?",
+				"description": "NFL SUNDAY TICKET?",
+				"active": "true",
+				"ID": "CatNFLSunday",
+				"has_category": ["PNLFootball"],
+				"type": "productcategory"
+			}
+		}
+	],
+	"accountNodeId": "3456456456fdfg"
+}

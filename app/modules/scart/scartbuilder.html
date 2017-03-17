@@ -1,0 +1,85 @@
+<!-- 2 column div------------>
+<div ng-repeat="promoCat in promoCats" ng-show="promoCat.eligibleOfferMap.offers">
+	<div class= "row margin">
+		<div class="extra-header">
+			<div>
+				<h4>{{promoCat.eligibleOfferMap.name}}</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row margin" ng-repeat="category in promoCat.eligibleOfferMap.offers" ng-show="category.eligibleOfferMap.displayInOfferPanel=='true'">
+		<div class="col-md-9 col-left">
+			<div class="add-bottom-padding">
+				<h6 class="product-title">{{category.eligibleOfferMap.name}} </h6>
+				<div class= "product-desc">
+					{{category.eligibleOfferMap.quantity}}&nbsp; {{category.eligibleOfferMap.description}}
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-right" ng-init="checkIsPicked(category)"  >
+			<div class="inner">
+				<div class= "customPrice dollars">
+					$ <span class="amount">{{category.eligibleOfferMap.price}}</span>
+				</div>
+				<div class="buttons"  ng-click="validateCart(promoCat,category)" ng-show="category.added != true" >
+					<button type="submit" class="btn btn-primary">
+						Add to Cart
+					</button>
+				</div>
+				<div class="in-cart" ng-show="category.added == true">
+					<div class="added-to-cart">
+						<span class="cart-icon"></span>
+						<span class="in-cart-text">In Cart</span>
+					</div>
+					<div>
+						<a class="toggle-languages" ng-click="removeFromCart(promoCat,category)"><span>Remove</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 2 column div------------>
+<!-- <div ng-repeat="(promoCatName, promoCatValue) in promoCategories">
+<div class= "row margin">
+<div class="extra-header">
+<div>
+<h4>{{promoCatName}}</h4>
+</div>
+</div>
+</div>
+<div class="row margin" ng-repeat="category in promoCatValue">
+<div class="col-md-9 col-left">
+<div class="add-bottom-padding">
+<h6 class="product-title">{{category[0].eligibleOfferMap.name}} </h6>
+<div class= "product-desc">
+{{category[0].eligibleOfferMap.description}}
+<br>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-right">
+<div class="inner">
+<div class= "customPrice dollars">
+$ <span class="amount">{{category[0].eligibleOfferMap.price}}</span>
+</div>
+<div class="buttons"  ng-click="category[0].added = true" ng-show="!category[0].added">
+<button type="submit" class="btn btn-primary">
+Add to Cart
+</button>
+</div>
+<div class="in-cart" ng-show="category[0].added">
+<div class="added-to-cart">
+<span class="cart-icon"></span>
+<span class="in-cart-text">In Cart</span>
+</div>
+<div>
+<a class="toggle-languages" ng-click="category[0].added = false"><span>Remove</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->

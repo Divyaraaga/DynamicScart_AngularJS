@@ -1,0 +1,22 @@
+<div>
+	<!-- <div class='form-group' ng-repeat='row in rowList' ng-hide='hideList[row] '> -->
+	<div class='form-group' ng-repeat='row in rowList'>
+		<br>
+		<label class='col-sm-3 col-sm-offset-1'> {{rowList[$index]}}</label>
+		<div class='col-sm-5'>
+			<input type='text'  class='form-control' ng-model='attributeData[rowList[$index]]'/>
+		</div>
+		<span class='glyphicon glyphicon-remove text-danger col-sm-1' tooltip='Delete attribute' ng-click='deleteRow($index)'></span>
+		<br>
+	</div>
+	<div class='form-group'>
+		<br>
+		<div class='col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4'>
+			<select class='form-control form-group' ng-model='attrKey'>
+				<option value=''>-- Select criteria --</option>
+				<option ng-repeat='data in attributes' value="{{data.source}}" >{{data.displayName}}</option>
+			</select>
+		</div>
+		<span class='glyphicon glyphicon-plus text-info col-sm-1 infoBtnSelectClass' tooltip='Add attribute' ng-click='addRow()'></span>
+	</div>
+</div>

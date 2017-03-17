@@ -1,0 +1,298 @@
+.promotionDiv {
+  margin-top:10px;
+  border: #cdcdcd medium solid;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+/************ Index.html CSS - STARTS ******************/
+.logo {
+  display: block;
+  position: relative;
+  background: url(../img/dtv_topnav_sprite.png) no-repeat;
+  margin-top: 14px;
+  width: 158px;
+  height: 28px;
+  text-indent: -9999px;
+  z-index: 1;
+}
+
+.footerText {
+  font-size: 12px
+}
+
+/************ Index.html CSS - ENDS ******************/
+
+/************ Login.html CSS - ENDS ******************/
+
+.gradient-module {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px #ddd;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7f7f7),color-stop(100%,#f1f1f1));
+  background: -webkit-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -o-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -ms-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: linear-gradient(to bottom,#f7f7f7 0,#f1f1f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7',endColorstr='#f1f1f1',GradientType=0);
+}
+
+.centerDiv {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.mandatory {
+  color: red;
+  padding-left: 5px
+}
+
+.loginBtnCSS {
+  width: 175px;
+}
+
+/************** Login.html CSS - ENDS *******************/
+
+/************** scart.html CSS - Starts *****************/
+
+.messageShade{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.heightClass{
+    // border: solid red 5px;
+   overflow-y: scroll;
+   height: 800px;
+   overflow-x: hidden;
+}
+
+// .accHeightClass{
+   // overflow-y: scroll;
+   // height: 200px;
+   // overflow-x: hidden;
+// }
+
+.margin{
+  padding : 10px 30px 10px 30px
+}
+
+.marginPromotions{
+  padding : 10px 30px 10px 30px
+}
+
+.panel-default > .panel-heading {
+    color: #333333;
+    //background-color: #f8f5f0;
+    background-color: #4787A0;
+    border-color: #dfd7ca;
+}
+
+.accordionHeading {
+  // color: #585858;
+  color: #FFF;
+  font-size: 2em
+}
+
+.accordionHeadingCharges {
+   //color: #585858;
+  color: #FFF;
+  font-size: 1.5em
+}
+// .accordionDescription {
+  // font-size: 18px;
+  // font-weight: 300
+// }
+
+.accordion-toggle {
+  cursor: pointer;
+  color: #006DCC;
+}
+
+.form-group {
+  text-align: center
+}
+
+/************* scart.html CSS - Ends *******************/
+
+/******************* scartBuilder.html -- Accordion Div -- starts *****************************/
+.btn-warning:hover {
+  background: #9E3D04;
+}
+.btn-primary:hover {
+  background: #2583B8;
+}
+
+.extra-header {
+  width: auto;
+  border-radius: 5px;
+ // text-shadow: 0 -1px #2167a2;
+  text-shadow: 0 -1px #36210F;
+  height: 40px;
+  //background: #3399e6;
+  background: #B77033;
+  border-width: 1px;
+}
+
+.extra-header h4 {
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-size: 1.5em
+}
+
+.col-left {
+  // text-align: center;
+  height : 125px;
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7f7f7),color-stop(100%,#f1f1f1));
+  background: -webkit-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -o-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: -ms-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);
+  background: linear-gradient(to bottom,#f7f7f7 0,#f1f1f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7',endColorstr='#f1f1f1',GradientType=0);
+  border-radius: 5px 0 0 5px;
+  border-left: solid 1px #ddd;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd
+}
+.col-right {
+  height : 125px;
+  border-radius: 0 5px 5px 0;
+  border: solid 1px #ddd;
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top,#fcfcfc 0,#efefef 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fcfcfc),color-stop(100%,#efefef));
+  background: -webkit-linear-gradient(top,#fcfcfc 0,#efefef 100%);
+  background: -o-linear-gradient(top,#fcfcfc 0,#efefef 100%);
+  background: -ms-linear-gradient(top,#fcfcfc 0,#efefef 100%);
+  background: linear-gradient(to bottom,#fcfcfc 0,#efefef 100%)
+}
+
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+
+.add-bottom-padding {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  border-bottom: 1px #fff
+}
+
+.product-title {
+  font-family: DinMedium;
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  white-space: normal;
+  color: #000000;
+  word-wrap: break-word;
+  padding-left: 10px;
+}
+
+// .product-title .product-logo {
+  // float: left;
+  // height: 40px;
+  // padding-right: 20px;
+  // padding-left: 2px
+// }
+// 
+.product-desc {
+  text-align: left;
+  padding-left: 22px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.buttons{
+  padding-left: 25px ; 
+  padding-right: 10px; 
+  padding-bottom: 10px;
+}
+
+.col-right .inner {
+  text-align: center
+}
+
+.inclusion-offer-text .offer-package {
+  font-size: 14px;
+  
+  line-height: 15px;
+  color: #999;
+  text-align: center
+}
+
+.in-cart .added-to-cart {
+  text-align: center;
+  display: inline-block;
+  clear: both
+}
+.in-cart .added-to-cart .cart-icon {
+  background-image: url("../images/pepod-icon-sprite.png");
+  float: left;
+  font-size: 15px;
+  height: 33px;
+  width: 32px
+}
+.in-cart .added-to-cart .in-cart-text {
+  color: #333;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 9px
+}
+
+/*******************Price**************************/
+.customPrice {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #111111
+}
+.dollars {
+  font-size: 15px
+}
+.amount {
+  font-size: 30px;
+  // line-height: 44px;
+  font-weight: bold
+}
+/*******************Language toogle *****************************/
+a.toggle-languages{
+    color: #93c54b;
+}
+a.toggle-languages:hover {
+  /*text-decoration: none;*/
+  cursor: pointer;
+}
+
+/***************** scartBuilder.html CSS - Ends ********************/
+
+/***************** refreshcart.html CSS - starts ********************/
+
+.subtotal{
+  margin-right : 20px;
+  font-size: 1.4em;
+}
+
+.subtotalprice{
+  margin-right : 10px;
+  font-size: 1.4em;
+}
+
+/***************** refreshcart.html CSS - ends ********************/
